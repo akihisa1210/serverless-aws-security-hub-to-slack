@@ -28,3 +28,10 @@ functions:
               - 'aws.securityhub'
             detail-type:
               - 'Security Hub Findings - Imported'
+            detail:
+              findings:
+                Severity:
+                  Label:
+                    - 'CRITICAL'
+                    - 'HIGH'
+                    - 'MEDIUM'
